@@ -5,29 +5,6 @@
   padding: 0 20px;
   color: black; }
 
-/**
-    Esto sería sin la utilización de Sass, es decir con sintaxis css normal
-.box {
-    padding: 10px;
-    background-color: #E6EBE0;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}    
-
-.box .head {
-    border-bottom: 1px solid #9BC1BC;
-    padding-bottom: 10px;
-}
-
-.box .head h3 {
-    margin: 0;
-    color: #5CA4A9;
-}
-
-.box .cont {
-    padding-top: 10px;    
-}
-*/
 /*
     Con Sass
 */
@@ -52,14 +29,14 @@
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 0.8em;
+  border-radius: 4px;
   /* 
     text: {
         decoration: none;
         transform: uppercase;
     }
-    */
-  font-size: 0.8em;
-  border-radius: 4px; }
+    */ }
   .btn-cta {
     background-color: #ed6a5a;
     position: relative;
