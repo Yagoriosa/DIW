@@ -1,0 +1,18 @@
+html {
+    height: 100%; 
+}
+
+.padre {
+    height: 130vh; 
+    width: 70%;
+    margin: 0 auto;
+    background-color: lighten(gray, 20%);
+    border-bottom: 10px solid black;
+}
+
+.hijo {
+    height: 5rem;
+    background-color: deepskyblue;
+    position: fixed; 
+    width: 70%; 
+}
